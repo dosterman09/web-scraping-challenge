@@ -1,11 +1,12 @@
 # Web Scraping Homework - Mission to Mars
 
-![mission_to_mars](Images/mission_to_mars.png)
-
 GOAL
 Use BeautifulSoup, Splinter, and Pandas to scrape five different webpages realated to Mars and display the results on a webpage using MongoDB and Flask.
 
 Scraping was first done in a Jupyter notebook to test the code as it was written. Then I connected to the chromedriver and set up my browser to open each webpage I needed to scrape. I used BeautifulSoup to examine the HTML and search for the appropriate elements and classes that contained the information I needed with soup.find_all().
+
+![mission_to_mars](Images/mission_to_mars.png)
+
 
 In this assignment, you will build a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page. The following outlines what you need to do.
 
